@@ -320,6 +320,10 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-page {
+  display: flex;
+  align-items: baseline;
+}
 
 .logo-studio {
   color: var(--primary-white-color);
@@ -343,6 +347,19 @@ address,
 }
 .item-address {
   margin-bottom: 9px;
+}
+
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-logo-address {
+  margin-right: 70px;
 }
 
 /* Портфоліо */
