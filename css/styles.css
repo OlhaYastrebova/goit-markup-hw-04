@@ -111,8 +111,7 @@ a {
   letter-spacing: 0.02em;
 }
 .email:hover,
-.tel:hover,
-.client:hover {
+.tel:hover {
   color: var(--accent-color);
 }
 
