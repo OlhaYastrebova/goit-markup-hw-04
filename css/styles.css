@@ -110,6 +110,11 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.email:hover,
+.tel:hover,
+.client:hover {
+  color: var(--accent-color);
+}
 
 .email .link:hover,
 .tel .link:hover {
@@ -233,14 +238,13 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  
 }
 .work {
   padding-top: 0;
 }
 .work-list,
 .team-list,
-.client-list{
+.client-list {
   display: flex;
   margin-top: 50px;
 }
@@ -287,6 +291,18 @@ a {
 .social-link:last-child {
   margin-right: 0;
 }
+.client-logo {
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.client {
+  margin-right: 30px;
+}
+.client:last-child {
+  margin-right: 0;
+}
+
 footer {
   background-color: #2f303a;
   padding-top: 60px;
