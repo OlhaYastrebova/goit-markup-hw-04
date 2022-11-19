@@ -110,9 +110,12 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.email:hover,
-.tel:hover {
-  fill: var(--accent-color);
+
+.email,
+.tel,
+.client
+{
+  fill: #757575;
 }
 
 .email .link:hover,
@@ -277,9 +280,10 @@ a {
 }
 .social-links {
   display: flex;
-
+  
   margin-top: 16px;
   padding-bottom: 30px;
+  p
 }
 .social-link {
   margin-right: 10px;
