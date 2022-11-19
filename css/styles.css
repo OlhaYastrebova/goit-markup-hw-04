@@ -112,10 +112,12 @@ a {
 }
 
 .email,
-.tel,
-.client
-{
+.tel {
   fill: #757575;
+}
+.client,
+.social-link {
+  fill: #afb1b8;
 }
 
 .email .link:hover,
@@ -124,7 +126,8 @@ a {
 }
 .envelope:hover,
 .smartphone:hover,
-.client:hover {
+.client:hover,
+.social-link {
   fill: var(--accent-color);
 }
 
@@ -280,10 +283,9 @@ a {
 }
 .social-links {
   display: flex;
-  
+
   margin-top: 16px;
   padding-bottom: 30px;
-  p
 }
 .social-link {
   margin-right: 10px;
