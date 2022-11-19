@@ -111,12 +111,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.email,
-.tel {
-  fill: #757575;
-}
-.client,
-.social-link {
+.client {
   fill: #afb1b8;
 }
 
@@ -124,10 +119,15 @@ a {
 .tel .link:hover {
   color: var(--accent-color);
 }
-.envelope:hover,
-.smartphone:hover,
-.client:hover,
+
 .social-link {
+  fill: #fff;
+}
+.social-link:hover {
+  fill: #2196f3;
+}
+
+.client:hover {
   fill: var(--accent-color);
 }
 
@@ -140,10 +140,6 @@ a {
   margin-left: 0;
   align-items: center;
   margin-left: auto;
-}
-.envelope,
-.smartphone {
-  margin-right: 10px;
 }
 
 .hero {
@@ -280,12 +276,18 @@ a {
 }
 .team-person {
   padding-top: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .social-links {
   display: flex;
 
   margin-top: 16px;
-  padding-bottom: 30px;
 }
 .social-link {
   margin-right: 10px;
