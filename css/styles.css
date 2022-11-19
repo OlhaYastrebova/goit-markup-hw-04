@@ -112,7 +112,7 @@ a {
 }
 .email:hover,
 .tel:hover {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .email .link:hover,
