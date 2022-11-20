@@ -120,8 +120,8 @@ a {
   color: var(--accent-color);
 }
 .email:hover,
-.envelope-link,
-.smartphone-link {
+.envelope:hover,
+.smartphone:hover {
   fill: var(--accent-color);
 }
 .link {
