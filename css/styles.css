@@ -119,10 +119,15 @@ a {
 .tel .link:hover {
   color: var(--accent-color);
 }
-.email:hover,
-.envelope:hover,
-.smartphone:hover {
+
+.envelope-link:hover,
+.smartphone-link:hover {
   fill: var(--accent-color);
+}
+
+.envelope-link,
+.smartphone-link {
+  fill: #757575;
 }
 .link {
   margin-left: 10px;
