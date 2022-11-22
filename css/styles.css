@@ -102,8 +102,8 @@ a {
   text-decoration: none;
 }
 
-.tel .link-contact,
-.email .link-contact {
+.tel,
+.email {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -115,8 +115,10 @@ a {
   fill: #afb1b8;
 }
 
-.email .link-contact:hover,
-.tel .link-contact:hover {
+.email:hover,
+.email:focus,
+.tel:hover,
+.tel:focus {
   color: var(--accent-color);
 }
 
@@ -124,19 +126,30 @@ a {
 .smartphone-link:hover {
   fill: var(--accent-color);
 }
+.email {
+  margin-right: 30px;
+}
 
 .envelope-link,
 .smartphone-link {
   fill: #757575;
+  color: #757575;
 }
 .link-contact {
   margin-left: 10px;
 }
 
-.social-link {
-  fill: #fff;
+.person-social-link {
+  background-color: #fff;
   color: #afb1b8;
 }
+
+.icon-facebook:hover,
+.icon-facebook:focus {
+  fill: #fff;
+  background-color: #2196f3;
+}
+
 .social-link:hover,
 .social-link:focus,
 .footer-social-link:hover,
