@@ -134,26 +134,43 @@ a {
 .link-contact {
   margin-left: 10px;
 }
-
-.person-social-link {
-  background-color: #fff;
-  color: #afb1b8;
+.person-social-link{
+  
 }
-
-.icon-facebook:hover,
-.icon-facebook:focus {
-  fill: #fff;
-  background-color: #2196f3;
-}
-.social-link {
+.social-link{
+  display: flex;
+  margin-right: 10px;
   width: 44px;
   height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  
 }
+.icon-facebook:focus,
+.icon-facebook:hover{
+  fill: #fff;
+}
+.icon-facebook:{
+  fill: #757575;
+}
+
+  
+
+
+
+
+  .footer-social-link{
+fill: #fff;
+background color: #757575;
+  }
+
 .social-link:hover,
 .social-link:focus,
 .footer-social-link:hover,
 .footer-social-link:focus {
-  fill: #2196f3;
+  fill: #fff;
+  background-color: #2196f3;
 }
 
 .email .link-contact {
