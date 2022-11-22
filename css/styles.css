@@ -111,29 +111,25 @@ a {
   letter-spacing: 0.02em;
 }
 
-.client {
-  fill: #afb1b8;
-}
-
-.email:hover,
-.email:focus,
-.tel:hover,
-.tel:focus {
-  color: var(--accent-color);
-}
-
 .envelope-link:hover,
-.smartphone-link:hover {
+.envelope-link:focus,
+.smartphone-link:hover,
+.smartphone-link:focus {
+  color: var(--accent-color);
   fill: var(--accent-color);
 }
 .email {
   margin-right: 30px;
 }
+.envelope,
+.smartphone {
+  margin-right: 10px;
+}
 
 .envelope-link,
 .smartphone-link {
-  fill: #757575;
-  color: #757575;
+  fill: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 .link-contact {
   margin-left: 10px;
@@ -149,17 +145,15 @@ a {
   fill: #fff;
   background-color: #2196f3;
 }
-
+.social-link {
+  width: 44px;
+  height: 44px;
+}
 .social-link:hover,
 .social-link:focus,
 .footer-social-link:hover,
 .footer-social-link:focus {
   fill: #2196f3;
-}
-
-.client:hover,
-.client:focus {
-  fill: var(--accent-color);
 }
 
 .email .link-contact {
@@ -339,14 +333,27 @@ a {
 /* Наші клієнти */
 .client-logo {
   padding: 16px 32px;
-  border: 1px solid #afb1b8;
+  border: 1px solid;
   border-radius: 4px;
+  color: #afb1b8;
 }
 .client {
   margin-right: 30px;
 }
 .client:last-child {
   margin-right: 0;
+}
+.client {
+  fill: #afb1b8;
+}
+.client-logo:hover,
+.client-logo:focus {
+  color: var(--accent-color);
+}
+.client-company:hover,
+.client-company:focus {
+  fill: var(--accent-color);
+  color: var(--accent-color);
 }
 /* Футер */
 footer {
