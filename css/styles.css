@@ -136,7 +136,8 @@ a {
 }
 .person-social-link {
 }
-.social-link {
+.social-link,
+.footer-social-link {
   display: flex;
   margin-right: 10px;
   width: 44px;
@@ -145,11 +146,18 @@ a {
   justify-content: center;
   border-radius: 100%;
 }
+
 .icon-facebook:focus,
-.icon-facebook:hover {
+.icon-facebook:hover,
+.icon-instagram:hover,
+.icon-twitter:hover,
+.icon-linkedin:hover {
   fill: #fff;
 }
-.icon-facebook {
+.icon-facebook,
+.icon-instagram,
+.icon-twitter,
+.icon-linkedin {
   fill: var(--primary-text-color);
 }
 
