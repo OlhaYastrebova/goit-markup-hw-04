@@ -41,7 +41,7 @@ img {
   height: auto;
 }
 header {
-  background-color: #fff;
+  background-color: var(--primary-white-color);
   border-bottom: 1px solid #ececec;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -135,6 +135,10 @@ a {
   margin-left: 10px;
 }
 .person-social-link {
+  fill: #afb1b8;
+}
+.person-social-link:hover {
+  fill: var(--primary-white-color);
 }
 .social-link,
 .footer-social-link {
@@ -146,32 +150,19 @@ a {
   justify-content: center;
   border-radius: 100%;
 }
-
-.icon-facebook:focus,
-.icon-facebook:hover,
-.icon-instagram:hover,
-.icon-twitter:hover,
-.icon-linkedin:hover {
-  fill: #fff;
+.join-social-link {
+  fill: var(--primary-white-color);
 }
-.icon-facebook,
-.icon-instagram,
-.icon-twitter,
-.icon-linkedin {
-  fill: var(--primary-text-color);
-}
-
 .footer-social-link {
-  fill: #fff;
-  background-color: #212121;
+  background-color: var(--primary-text-color);
 }
 
 .social-link:hover,
 .social-link:focus,
 .footer-social-link:hover,
 .footer-social-link:focus {
-  fill: #fff;
-  background-color: #2196f3;
+  fill: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .email .link-contact {
@@ -238,7 +229,7 @@ a {
   background-color: #188ce8;
 }
 .fearure {
-  background-color: #fff;
+  background-color: var(--primary-white-color);
 }
 .icon-fearure {
   display: flex;
@@ -326,7 +317,7 @@ a {
   padding-right: 32px;
   padding-left: 32px;
   padding-bottom: 30px;
-  background-color: #fff;
+  background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -361,9 +352,10 @@ a {
 .client:last-child {
   margin-right: 0;
 }
-.client {
+.client-company {
   fill: #afb1b8;
 }
+
 .client-logo:hover,
 .client-logo:focus {
   color: var(--accent-color);
@@ -414,7 +406,7 @@ address,
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-white-color);
   margin-bottom: 20px;
 }
 .footer-logo-address {
@@ -422,7 +414,6 @@ address,
 }
 .footer-social-link {
   margin-right: 10px;
-  fill: #2f303a;
 }
 .footer-social-link:last-child {
   margin-right: 0;
@@ -431,10 +422,10 @@ address,
 /* Портфоліо */
 
 main {
-  background-color: #fff;
+  background-color: var(--primary-white-color);
 }
 .filters {
-  background-color: #fff;
+  background-color: var(--primary-white-color);
   display: flex;
 }
 .menu-filters {
@@ -478,7 +469,7 @@ main {
   margin-left: -36px;
 }
 .project-set > .project {
-  background: #ffffff;
+  background: var(--primary-white-color);
   border: 1px solid #eeeeee;
   flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
