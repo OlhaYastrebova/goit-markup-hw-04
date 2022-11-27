@@ -141,20 +141,15 @@ a {
   height: 44px;
   align-items: center;
   justify-content: center;
-}
-.social-link {
   border-radius: 100%;
 }
 
 .person-social-link:hover,
 .person-social-link:focus {
   fill: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
-.footer-social-link {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-}
 .join-social-link {
   display: flex;
   width: 44px;
@@ -162,12 +157,12 @@ a {
   align-items: center;
   justify-content: center;
   fill: var(--primary-white-color);
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-link:hover,
-.social-link:focus,
-.footer-social-link:hover,
-.footer-social-link:focus {
+.join-social-link:hover,
+.join-social-link:focus {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
 }
